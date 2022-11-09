@@ -1,0 +1,28 @@
+/* em HTML é ID = em CSS é # '*'/
+/* em HTML é CLASS = em CSS é '.'*/
+#PRINCIPAL{
+    text-align: center;
+    color:aquamarine;
+    background-color: black;
+    
+}
+h1 {
+    color:blueviolet
+}
+.basico {
+    color:aqua;
+    text-align: center;
+    background-color: blue;
+    
+}
+.intermediario {
+    color:brown;
+    text-align: center;
+    background-color: blue;
+
+}
+.avancado{
+    color:bisque;
+    text-align: center;
+    background-color: blue;
+}
