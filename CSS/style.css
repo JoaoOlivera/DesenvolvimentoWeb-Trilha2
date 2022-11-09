@@ -2,27 +2,18 @@
 /* em HTML é CLASS = em CSS é '.'*/
 #PRINCIPAL{
     text-align: center;
-    color:aquamarine;
-    background-color: black;
+    color:aquamarine
     
 }
 h1 {
     color:blueviolet
 }
 .basico {
-    color:aqua;
-    text-align: center;
-    background-color: blue;
+    background-color: aqua;
+    color:blue
+    
     
 }
 .intermediario {
-    color:brown;
-    text-align: center;
-    background-color: blue;
-
-}
-.avancado{
-    color:bisque;
-    text-align: center;
-    background-color: blue;
+    color:brown
 }
