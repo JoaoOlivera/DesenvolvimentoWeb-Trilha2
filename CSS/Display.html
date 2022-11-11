@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <style>
+        span.c{
+            display:block;
+            width:100px;
+            height:100px;
+            padding:5px;
+            border:1px solid blue;
+            background-color:yellow
+        
+        }
+        span.c:hover{
+            background-color:black
+        }
+
+        span.a{
+            display:inline;
+            width:100px;
+            height:100px;
+            padding:5px;
+            border:1px solid blue;
+            background-color:yellowgreen
+        
+        }
+        span.a:hover{
+            background-color:black;
+            color: brown;
+        }
+        .nav{
+            background-color:aquamarine;
+            list-style-type: none;
+            text-align: right;
+            margin:0;
+            padding:0;
+        }
+        .nav li{
+            display:inline-block;
+            font-size:20px;
+            padding:20px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li> <a href="#"></a>Home</li>
+        <li> <a href="#"></a>Cursos</li>
+        <li> <a href="#"></a>Alunos</li>
+        <li> <a href="#"></a>Contato</li>
+    </ul>
+    <h2>display:block</h2>
+    <div>Desenvolvimento Web com: <span class="c">HTML</span>
+        <span class="c">CSS</span> <span class="c">Java Script </span>
+    </div>
+
+    <h2>display:inline</h2>
+    <div>Desenvolvimento Web com: <span class="a">HTML</span> e
+        <span class="a">CSS</span> e<span class="a">Java Script </span> top
+    </div>
+
+
+</body>
+</html>
