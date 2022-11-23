@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg);
+}
+.menu {
+        display: flex;
+        align-items: center;
+        padding: 24px;
+        justify-content: stretch;
+        justify-content: flex-end;
+        background-color:grey;
+        font-size:20px;
+}
+.titulo{
+    background-color:grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size:30px;
+    text-align:center;
+
+}
+
+
+
+
+
+
+
