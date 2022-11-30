@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você é maior de idade</title>
+    <style>
+    body {background-color: grey; }
+    h1 {color: orange;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+    h1 {text-align: center;}
+    p {color:red}
+    
+    </style>
+</head>
+<body>
+    <h1>What Is Your Age?</h1>
+    Sua Idade: <input type="number" name="txtvel" id="txtvel"> 
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+        function calcular(){
+            var txtv = window.document.querySelector('input#txtvel')
+            var res = window.document.querySelector('div#res')
+            var idade = Number(txtv.value)
+            
+            res.innerHTML += `<p> A sua idade é  ${idade}  </p>`
+            if (idade < 18){
+            res.innerHTML += `<p>Pirralho!Você Ainda Não Tem Idade Suficiente!Saia Imediatamente </p>`
+            }else { 
+            res.innerHTML += `<p>Seja Bem-Vindo(a) Ao Nosso Site!<p>`
+            }
+        }
+    
+    </script>
+</body>
+</html> 
+</body>
+</html>
